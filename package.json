@@ -1,0 +1,37 @@
+{
+  "name": "@jestaubach/eslint-config",
+  "version": "0.1.12",
+  "description": "A shared eslint configuration",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "homepage": "https://github.com/JEStaubach/eslint-config",
+  "bugs": {
+    "url": "https://github.com/JEstaubach/eslint-config/issues",
+    "email": "contact@jsdevtools.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jestaubach/eslint-config.git"
+  },
+  "contributors": [
+    {
+      "name": "JEStaubach",
+      "email": "justin@jsdevtools.com",
+      "url": "https://twitter.com/jsdevtool"
+    }
+  ],
+  "license": "MIT",
+  "private": false,
+  "main": "index.js",
+  "dependencies": {
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.28.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.7.0",
+    "prettier": "^2.5.1"
+  }
+}
