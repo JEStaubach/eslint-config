@@ -25,6 +25,10 @@
   "license": "MIT",
   "private": false,
   "main": "index.js",
+  "scripts": {
+    "bump": "npm version patch",
+    "release": "git push --tags && npm publish"
+  },
   "dependencies": {
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
